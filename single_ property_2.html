@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!-- Aos animation css link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <title>single property 2</title>
+</head>
+
+<body>
+  <div class="top-section">
+    <!-- ********************************************************************************** -->
+  <!-- ******************** navbar  section Start *********** -->
+  <!-- ********************************************************************************** -->
+  <nav class="navbar navbar-expand-lg navbar-light" id="nav-1">
+    <div class="container-fluid" >
+        <div style="display: flex;flex-direction: row;align-items: center;">
+            <div class="col-lg-4"><a class="navbar-brand" href="home_page.html"><img class="brand-logo" src="images/logo.png"></a></div>                
+        </div>
+        <button class="navbar-toggler d-lg-none d-md-block" style="color: white; margin-left: 100px;" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-white"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main_nav"> 
+                <div class="col-lg-8">
+                <ul class="navbar-nav" id="nav-2">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="home_page.html" id="nav-link-1">  HOME  </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="full_width_list.html" id="nav-link-1">   Property  </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="nav-link-1">  Dashboard   </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="nav-link-1"> Pages  </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#"> News </a>
+                            </li>
+                            <li><a class="dropdown-item" href="#" > About us </a></li>
+                            <li><a class="dropdown-item" href="#" > Service </a>
+                        </li>
+                        <li><a class="dropdown-item" href="contact_us.html" > Contact us </a>
+                    </li>
+                    <li><a class="dropdown-item" href="#" > Agent </a>
+                    </li>
+                            <li><a class="dropdown-item" href="#" > Agency </a>
+                            </li>
+                            <li><a class="dropdown-item" href="#" > FAQs </a></li>
+                            <li><a class="dropdown-item" href="#" > Page 404 </a></li>
+                            <li><a class="dropdown-item" href="#" > Checkout </a></li>
+                            <li><a class="dropdown-item" href="#" > Payment Completed </a></li>
+                            <li><a class="dropdown-item" href="#" > Compare </a></li>
+                            <li><a class="dropdown-item" href="#" > Packages </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="nav-link-1">  Docs  </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" > Dropdown item 1 </a></li>
+                            <li><a class="dropdown-item" href="#" > Dropdown item 2 </a></li>
+                            <li><a class="dropdown-item" href="#" > Dropdown item 3 </a></li>
+                            <li><a class="dropdown-item" href="#" > Dropdown item 4 </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-lg-4" >
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="nav-link-1">ENG</a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a class="dropdown-item" href="#" > VN</a></li>
+                            <li><a class="dropdown-item" href="#" > ENG </a></li>
+                            <li><a class="dropdown-item" href="#" > ARB </a></li>
+                            <li><a class="dropdown-item" href="#" > KR </a></li>
+                            <li><a class="dropdown-item" href="#"> JN </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#" id="nav-link-1">Sign IN</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" id="nav-link-1"><img src="images/heart.svg"></a></li>
+                </ul>
+                </div>               
+        </div> <!-- navbar-collapse.// -->
+    </div> <!-- container-fluid.// -->
+</nav>
+<!-- ********************************************************************************** -->
+<!-- ******************** dropdown  section Start *********** -->
+<!-- ********************************************************************************** -->
+<div>
+      <h3 class="top-section-heading">Home / <strong>Listing</strong></h3>
+      <h2 class="top-section-heading">Listing Full Width List</h2>
+    <div class="dropdown-1 d-flex justify-content-center">
+        <div class="container-fluid" style="width: 100%;">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="d-flex flex-wrap justify-content-between">
+                        
+                            <div class="input-group mb-2 col-lg-1 col-md-3 col-sm-6" id="input-group-2">
+                                <div class="d-flex align-items-center">
+                                  <button class="btn dropdown-toggle btn-4" type="button"  id="dropdown-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Location</button>
+                                  <div class="dropdown-menu me-2" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Austin</a>
+                                    <a class="dropdown-item" href="#">Boston</a>
+                                    <a class="dropdown-item" href="#">Chicago</a>
+                                    <a class="dropdown-item" href="#">Denver</a>
+                                    <a class="dropdown-item" href="#">Los Angeles</a>
+                                    <a class="dropdown-item" href="#">New York</a>
+                                    <a class="dropdown-item" href="#">San Francisco</a>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="input-group mb-2 col-lg-1 col-md-3 col-sm-6" id="input-group-2">
+                            <div class="d-flex align-items-center">
+                                <button class="btn dropdown-toggle btn-4" type="button"  id="dropdown-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Any Price</button>
+                                <div class="dropdown-menu me-2" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">High</a>
+                                <a class="dropdown-item" href="#">Low</a>
+                                <a class="dropdown-item" href="#">Medium</a>
+                                </div>
+                            </div>
+                            </div>
+                              
+                        
+                        
+                            <div class="input-group mb-2 col-lg-1 col-md-3 col-sm-6" id="input-group-2">
+                                <div class="d-flex align-items-center">
+                                    <button class="btn dropdown-toggle btn-4" type="button" id="dropdown-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">House</button>
+                                    <div class="dropdown-menu me-2" aria-labelledby="dropdownMenuButton">
+                                      <a class="dropdown-item" href="#">House</a>
+                                      <a class="dropdown-item" href="#">Hotel</a>
+                                      <a class="dropdown-item" href="#">Motel</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-group mb-2 col-lg-1 col-md-3 col-sm-6" id="input-group-2">
+                                <div class="" style="width: 100%;">
+                                  <button class="btn dropdown-toggle btn-4" type="button"  id="dropdown-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Status</button>
+                                  <div class="dropdown-menu me-2" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Austin</a>
+                                    <a class="dropdown-item" href="#">Boston</a>
+                                    <a class="dropdown-item" href="#">Chicago</a>
+                                    <a class="dropdown-item" href="#">Denver</a>
+                                    <a class="dropdown-item" href="#">Los Angeles</a>
+                                    <a class="dropdown-item" href="#">New York</a>
+                                    <a class="dropdown-item" href="#">San Francisco</a>
+                                  </div>
+                                </div>
+                            </div>
+                        
+                        
+                            <div class="input-group mb-2 col-lg-1 col-md-3 col-sm-6" id="input-group-2">
+                                <div class="d-flex align-items-center">
+                                  <button class="btn dropdown-toggle btn-4" type="button"  id="dropdown-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Area</button>
+                                  <div class="dropdown-menu me-2" aria-labelledby="dropdownMenuButton">
+                                     <a class="dropdown-item" href="#">High</a>
+                                     <a class="dropdown-item" href="#">Low</a>
+                                     <a class="dropdown-item" href="#">Medium</a>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="input-group mb-2 col-lg-1 col-md-3 col-sm-6" id="input-group-2">
+                                  <div class="d-flex align-items-center" >
+                                      <button class="btn dropdown-toggle btn-4" type="button"  id="dropdown-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2+ Beds</button>
+                                      <div class="dropdown-menu me-2" aria-labelledby="dropdownMenuButton">
+                                         <a class="dropdown-item" href="#">2+ Beds</a>
+                                         <a class="dropdown-item" href="#">3+ Beds</a>
+                                      </div>
+                                  </div>
+                            </div>
+                        
+                          <div class="row mb-2 col-lg-1 col-md-6 col-sm-6">
+                                <div class="col-lg-4 d-flex align-items-center" >
+                                    <button class="btn dropdown-toggle btn-4" type="button"  id="dropdown-button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                        More.....
+                                    </button>
+                                </div>                     
+                          </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+                           
+          
+    </div>
+    <div class="collapse menu-dropdown dropdown-2" id="collapseExample1">
+        <div class="row" id="more-features" style="margin-top: 10px;margin-left: 5px;">
+            <div class="col-lg-3 col-sm-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                    <label class="form-check-label" for="exampleCheckbox">
+                        Air Conditioning
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                    <label class="form-check-label" for="exampleCheckbox">
+                        Lawn
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                    <label class="form-check-label" for="exampleCheckbox">
+                        Microwave
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                    <label class="form-check-label" for="exampleCheckbox">
+                        Outdoor Shower
+                    </label>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                    <label class="form-check-label" for="exampleCheckbox">
+                        Laundry
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                    <label class="form-check-label" for="exampleCheckbox">
+                        Sauna
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                    <label class="form-check-label" for="exampleCheckbox">
+                        Swimming pool
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                    <label class="form-check-label" for="exampleCheckbox">
+                        TV cable
+                    </label>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                    <label class="form-check-label" for="exampleCheckbox">
+                        Washer
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                    <label class="form-check-label" for="exampleCheckbox">
+                        Wifi
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                    <label class="form-check-label" for="exampleCheckbox">
+                        Window Coverings
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                    <label class="form-check-label" for="exampleCheckbox">
+                        Refrigerator
+                    </label>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                    <label class="form-check-label" for="exampleCheckbox">
+                        Barbeque
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                    <label class="form-check-label" for="exampleCheckbox">
+                        Dryer
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                    <label class="form-check-label" for="exampleCheckbox">
+                        Gym
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  </div>
+
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-md-10">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item "><a href="#">Home</a></li>
+          <li class="breadcrumb-item "><a href="#">Listing</a></li>
+          <li class="breadcrumb-item " aria-current="page">VILLA ON HOLLYWOOD BOULEVARD</li>
+        </ol>
+        <div id="custCarousel" class="carousel slide" data-ride="carousel" align="center">
+          <!-- slides -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/thumbnail1.jpg" alt="Hills">
+            </div>
+  
+            <div class="carousel-item">
+              <img src="images/thumbnail2.jpg" alt="Hills">
+            </div>
+  
+            <div class="carousel-item">
+              <img src="images/thumbnail3.jpg" alt="Hills">
+            </div>
+  
+            <div class="carousel-item">
+              <img src="images/thumbnail1.jpg" alt="Hills">
+            </div>
+          </div>
+        <a href="#"><i class="fa fa-heart-o favourite" aria-hidden="true"></i></a>
+       
+      <a href="#">  <i class="fa fa-share-alt" aria-hidden="true"></i></a>
+  <a href="#">    <i class="fa fa-print" aria-hidden="true"></i></a>
+  
+          <!-- Left right -->
+          <a class="carousel-control-prev" href="#custCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon "></span>
+          </a>
+          <a class="carousel-control-next" href="#custCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+  
+          <!-- Thumbnails -->
+          <ol class="carousel-indicators list-inline">
+            <li class="list-inline-item active">
+              <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#custCarousel">
+                <img src="images/thumbnail1.jpg" class="img-fluid">
+              </a>
+            </li>
+  
+            <li class="list-inline-item">
+              <a id="carousel-selector-1" data-slide-to="1" data-target="#custCarousel">
+                <img src="images/thumbnail2.jpg" class="img-fluid">
+              </a>
+            </li>
+  
+            <li class="list-inline-item">
+              <a id="carousel-selector-2" data-slide-to="2" data-target="#custCarousel">
+                <img src="images/thumbnail3.jpg"  class="img-fluid">
+              </a>
+            </li>
+  
+             <li class="list-inline-item">
+              <a id="carousel-selector-2" data-slide-to="3" data-target="#custCarousel">
+                <img src="images/thumbnail1.jpg"  class="img-fluid">
+              </a>
+            </li>
+           </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+
+  <!-- villa on hollywood -->
+
+  <div class="container-fluid primary-bg mt-5">
+    <div class="container pt-4 ">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="villahollywood ">
+
+            <div span class="badge badge-secondary villabadge" id="future-badge">FEATURED</span></div>
+            <div span class="badge badge-info villabadge">FOR SALE</span></div>
+            <i class="fa fa-clock-o pl-4 text-muted" aria-hidden="true"> 2 months ago</i>
+            <i class="fa fa-eye pl-4 text-muted" aria-hidden="true"> 1039 views</i>
+
+            <div class="hollywood">
+              <h4>Villa on Hollywood Boulevard</h4>
+              <h4>$1.250.000</h4>
+            </div>
+
+            <div class="address text-muted">
+              <div class="d-flex ">
+                <i class="fa fa-map-marker pt-1" aria-hidden="true"></i>
+                <p class="pl-2">398 Pete Pascale Pl, New York</p>
+              </div>
+
+              <p>$9350/SqFt</p>
+            </div>
+
+            <h5 class="pt-4">Description</h5>
+            <p>Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec.
+              Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis
+              lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus
+              pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestie
+              a iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.</p>
+          </div>
+
+
+
+
+
+
+
+          <!-- facts and futures -->
+
+
+
+
+          <div class=" facts-and-features mt-3">
+            <h4>Facts and Features</h4>
+            <div class="row pt-3 text-align-center">
+              <div class="col-lg-3">
+                <div class=" feature-items  mb-5">
+
+                 <img src="images/single_home.svg" class="feature-icons" alt="">
+                  <div class=" pl-1 feature-details mt-3">
+                    <p class="mt-2">type</p>
+                    <h6>single home</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class=" feature-items  mb-5">
+                 <img src="images/year_built.svg" class="feature-icons" alt="">
+                  <div class="pl-1 feature-details mt-3">
+                    <p>YEAR BUILT</p>
+                    <h6>2020</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class=" feature-items  mb-5">
+                 <img src="images/radiant.svg" alt="" class="feature-icons">
+                  <div class="pl-1 feature-details mt-3 ">
+                    <p>HEATING</p>
+                    <h6>Radiant</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class=" feature-items  mb-5">
+                <img src="images/sqft.svg" alt="" class="feature-icons">
+                  <div class="pl-1 feature-details mt-3 ">
+                    <p>SQFT</p>
+                    <h6>979.0</h6>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-3">
+                <div class="feature-items  mb-5">
+                 <img src="images/bedroom.svg" alt="" class="feature-icons">
+                  <div class="pl-1 feature-details mt-3 ">
+                    <p>BEDROOMS</p>
+                    <h6>3</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class=" feature-items  mb-5">
+                 <img src="images/bathroom.svg" alt="" class="feature-icons">
+                  <div class="pl-1 feature-details mt-3">
+                    <p>BATHROOMS</p>
+                    <h6>2</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="feature-items  mb-5">
+                  <img src="images/garage.svg" alt="" class="feature-icons">
+                  <div class="pl-1 feature-details mt-3">
+                    <p>GARAGE</p>
+                    <h6>1</h6>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class=" feature-items  mb-5">
+                <img src="images/status.svg" alt="" class="feature-icons">
+                  <div class="pl-1 feature-details mt-3">
+                    <p>STATUS</p>
+                    <h6>Active</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <!-- Additional Details -->
+
+
+          <div class="Additional-Details mt-3">
+            <h4 class="mb-4">Additional Details</h4>
+            <div class="row">
+
+              <div class="col-lg-3 col-sm-6 col-6 mb-3">
+                <p>Property ID</p>
+                <p>Property type</p>
+                <p>Rooms</p>
+                <p>Size</p>
+                <p>Garage</p>
+                <p>Garage size</p>
+              </div>
+
+              <div class="col-lg-4 col-sm-6 col-6 text-muted mb-3">
+                <p>AD-2910</p>
+                <p>Apartment, bar, cafe, villa</p>
+                <p>4</p>
+                <p>900SqFt</p>
+                <p>1</p>
+                <p>50 SqFt</p>
+              </div>
+
+
+              <div class="col-lg-3  col-sm-6 col-6 ">
+                <p>Price</p>
+                <p>Property status</p>
+                <p>Bedrooms</p>
+                <p>Bathrooms</p>
+                <p>Bathrooms</p>
+                <p>Year build</p>
+                <p>Label</p>
+              </div>
+
+              <div class="col-lg-2  col-sm-6 col-6 text-muted ">
+                <p> $890.000</p>
+                <p>For Sale</p>
+                <p>3</p>
+                <p>2</p>
+                <p>2000 SqFt</p>
+                <p>2020</p>
+                <p>Bestseller</p>
+              </div>
+
+
+            </div>
+          </div>
+         
+         
+        
+         
+         
+        
+
+          <!-- Offices Amenities -->
+
+          <div class="Offices-Amenities mt-3">
+            <h4>Offices Amenities</h4>
+            <div class="row text-muted">
+              <div class="col-lg-3  col-md-6  mb-2">
+                <div class="Amenities">
+                  <i class="fa fa-check" aria-hidden="true"></i>Balcony
+                </div>
+                <div class="Amenities">
+                  <i class="fa fa-check" aria-hidden="true"></i>Basement
+                </div>
+                <div class="Amenities">
+                  <i class="fa fa-check" aria-hidden="true"></i>Dining room
+                </div>
+              </div>
+
+              <div class="col-lg-3    mb-2">
+                <div class="Amenities">
+                  <i class="fa fa-check" aria-hidden="true"></i>Fireplace
+                </div>
+                <div class="Amenities">
+                  <i class="fa fa-check" aria-hidden="true"></i>Cooling
+                </div>
+                <div class="Amenities">
+                  <i class="fa fa-check" aria-hidden="true"></i>Dishwasher
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-sm-12 mb-2">
+                <div class="Amenities">
+                  <i class="fa fa-check" aria-hidden="true"></i>Balcony
+                </div>
+                <div class="Amenities">
+                  <i class="fa fa-check" aria-hidden="true"></i>Basement
+                </div>
+                <div class="Amenities">
+                  <i class="fa fa-check" aria-hidden="true"></i>Dining room
+                </div>
+              </div>
+
+              <div class="col-lg-3 mb-2 col-sm-12">
+                <div class="Amenities">
+                  <i class="fa fa-check" aria-hidden="true"></i>Fireplace
+                </div>
+                <div class="Amenities">
+                  <i class="fa fa-check" aria-hidden="true"></i>Cooling
+                </div>
+                <div class="Amenities">
+                  <i class="fa fa-check" aria-hidden="true"></i>Dishwasher
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <!-- floor plans -->
+
+          <div class="floor-plans mt-3">
+            <div class="row mb-2 col-lg-12 col-md-12 col-sm-12">
+              <div class="btn dropdown-toggle floor-btn col-lg-10 d-flex align-items-center justify-content-between " type="button"  id="dropdown-button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1" >
+                  <div class="first-floor">
+                    <h4>First Floor</h4>
+                  </div>
+                  <div class="floor-span">
+                    <span >Beds:2</span>
+                    <span class="ml-2">Bath:2</span>
+                    <span class="ml-2">Sqft:900</span>
+                  </div>
+              </div>
+            </div>
+          <div class="collapse menu-dropdown dropdown-2" id="collapseExample1">
+            <div class="floor-img"  style="margin-left: 25px;">
+                <img src="images/first-floor.jpg" style="width: 80%;">
+            </div>
+          </div>
+            <div class="row mb-2 col-lg-12 col-md-12 col-sm-12">
+              <div class="btn dropdown-toggle floor-btn col-lg-10 d-flex align-items-center justify-content-between " type="button"  id="dropdown-button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2" >
+                  <div class="first-floor">
+                    <h4>Second Floor</h4>
+                  </div>
+                  <div class="floor-span">
+                    <span >Beds:2</span>
+                    <span class="ml-2">Bath:2</span>
+                    <span class="ml-2">Sqft:900</span>
+                  </div>
+              </div>
+            </div>
+            <div class="collapse menu-dropdown dropdown-2" id="collapseExample2">
+              <div class="floor-img"  style="margin-left: 25px;">
+                  <img src="images/first-floor.jpg" style="width: 80%;">
+              </div>
+            </div>
+
+            <div class="row mb-2 col-lg-12 col-md-12 col-sm-12">
+              <div class="btn dropdown-toggle floor-btn col-lg-10 d-flex align-items-center justify-content-between " type="button"  id="dropdown-button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" >
+                  <div class="first-floor">
+                    <h4>Third Floor</h4>
+                  </div>
+                  <div class="floor-span">
+                    <span >Beds:2</span>
+                    <span class="ml-2">Bath:2</span>
+                    <span class="ml-2">Sqft:900</span>
+                  </div>
+              </div>
+            </div>
+            <div class="collapse menu-dropdown dropdown-2" id="collapseExample3">
+              <div class="floor-img"  style="margin-left: 25px;">
+                  <img src="images/first-floor.jpg" style="width: 80%;">
+              </div>
+            </div>
+          </div>
+
+
+                   <!-- review -->
+
+          <div class="review bg-white mt-3 p-4">
+            <h5>Write a review</h5>
+            <div class="row mt-3">
+               <div class="col-12">
+              <div class="rating d-flex text-muted">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+
+              <form class="mt-2">
+                <div class="form-row">
+                  <div class=" col-lg-6">
+                    <input  type="text" class=" review-inputs form-control mb-3" placeholder="Your Name">
+                  </div>
+                  <div class="col-lg-6">
+                    <input  type="text" class=" review-inputs form-control" placeholder="Email">
+                  </div>
+                </div>
+              </form>
+  
+              <div class="form-group mt-4">
+                <textarea class=" review-inputs form-control" placeholder="Your Review" id="exampleFormControlTextarea"
+                  rows="3"></textarea>
+              </div>
+
+              <button type="button" class=" review-button btn btn-primary mt-2">Submit</button>
+               </div>
+            </div>
+          </div>
+
+
+          
+          <!-- whats nearby -->
+
+
+          <div class="nearby  mt-3"> <h4>What is Nearby?</h4>
+            <a href="#"> <h5 class="mt-4">Restaurants</h5></a> 
+             <hr>
+            
+             <div class="row">
+               <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                <a href="#">   <img src="images/city3.jpg" class="img-fluid"></a>
+                 </div>
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-12 ">
+                 <a href="#"> <h6 class="mt-2">Bacchanal Buffet-Temporarily closed</h6></a> 
+                   <p class="text-muted ">3570 S Las Vegas BlvdLas Vegas, NV 89109</p>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                   <p>120 review</p>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+   
+                 </div>
+               </div>
+   <hr>
+               <div class="row mt-3">
+                 <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                  <a href="#">   <img src="images/city1.jpg" class="img-fluid"></a>
+                   </div>
+                   <div class="col-lg-6 col-md-6 col-sm-6 col-12 ">
+                   <a href="#"> <h6 class="mt-2">Bacchanal Buffet-Temporarily closed</h6></a> 
+                     <p class="text-muted ">3084 S Highland DrSte C</p>
+                   </div>
+                   <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                     <p>120 review</p>
+                     <i class="fa fa-star" aria-hidden="true"></i>
+                     <i class="fa fa-star" aria-hidden="true"></i>
+                     <i class="fa fa-star" aria-hidden="true"></i>
+                     <i class="fa fa-star" aria-hidden="true"></i>
+                     <i class="fa fa-star" aria-hidden="true"></i>
+     
+                   </div>
+                 </div>
+   
+                 <hr>
+               <div class="row mt-3">
+                 <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                  <a href="#">   <img src="images/city2.jpg" class="img-fluid"></a>
+                   </div>
+                   <div class="col-lg-6 col-md-6 col-sm-6 col-12 ">
+                   <a href="#"> <h6 class="mt-2">Bacchanal Buffet-Temporarily closed</h6></a> 
+                     <p class="text-muted ">3570 S Las Vegas BlvdLas Vegas, NV 89109</p>
+                   </div>
+                   <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                     <p>120 review</p>
+                     <i class="fa fa-star" aria-hidden="true"></i>
+                     <i class="fa fa-star" aria-hidden="true"></i>
+                     <i class="fa fa-star" aria-hidden="true"></i>
+                     <i class="fa fa-star" aria-hidden="true"></i>
+                     <i class="fa fa-star" aria-hidden="true"></i>
+     
+                   </div>
+                 </div>
+   
+                 <a href="#"> <h5 class="mt-4">Education</h5></a> 
+                 <hr>
+                 <div class="row mt-3">
+                   <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                    <a href="#">   <img src="images/city2.jpg" class="img-fluid"></a>
+                     </div>
+                     <div class="col-lg-6 col-md-6 col-sm-6 col-12 ">
+                     <a href="#"> <h6 class="mt-2">Safe Direction Firearms Training</h6></a> 
+                       <p class="text-muted ">3570 S Las Vegas BlvdLas Vegas, NV 89109</p>
+                     </div>
+                     <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                       <p>120 review</p>
+                       <i class="fa fa-star" aria-hidden="true"></i>
+                       <i class="fa fa-star" aria-hidden="true"></i>
+                       <i class="fa fa-star" aria-hidden="true"></i>
+                       <i class="fa fa-star" aria-hidden="true"></i>
+                       <i class="fa fa-star" aria-hidden="true"></i>
+       
+                     </div>
+                   </div>
+   
+                   <hr>
+                   <div class="row mt-3">
+                     <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                      <a href="#">   <img src="images/city4.jpg" class="img-fluid"></a>
+                       </div>
+                       <div class="col-lg-6 col-md-6 col-sm-6 col-12 ">
+                       <a href="#"> <h6 class="mt-2">Rabbi Shai Specht-Sandler</h6></a> 
+                         <p class="text-muted ">3084 S Highland DrSte C</p>
+                       </div>
+                       <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                         <p>120 review</p>
+                         <i class="fa fa-star" aria-hidden="true"></i>
+                         <i class="fa fa-star" aria-hidden="true"></i>
+                         <i class="fa fa-star" aria-hidden="true"></i>
+                         <i class="fa fa-star" aria-hidden="true"></i>
+                         <i class="fa fa-star" aria-hidden="true"></i>
+         
+                       </div>
+                     </div>
+                     <hr>
+                     <div class="row mt-3">
+                       <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                        <a href="#">   <img src="images/city5.jpg" class="img-fluid"></a>
+                         </div>
+                         <div class="col-lg-6 col-md-6 col-sm-6 col-12 ">
+                         <a href="#"> <h6 class="mt-2">Rabbi Shai Specht-Sandler</h6></a> 
+                           <p class="text-muted ">3084 S Highland DrSte C</p>
+                         </div>
+                         <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                           <p>120 review</p>
+                           <i class="fa fa-star" aria-hidden="true"></i>
+                           <i class="fa fa-star" aria-hidden="true"></i>
+                           <i class="fa fa-star" aria-hidden="true"></i>
+                           <i class="fa fa-star" aria-hidden="true"></i>
+                           <i class="fa fa-star" aria-hidden="true"></i>
+           
+                         </div>
+                       </div>
+     
+                       <a href="#"> <h5 class="mt-4">Health & Medical</h5></a> 
+                       <hr>
+                       <div class="row mt-3">
+                         <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                          <a href="#">   <img src="images/city2.jpg" class="img-fluid"></a>
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-6 col-12 ">
+                           <a href="#"> <h6 class="mt-2">Coppola David F DC & Assoc</h6></a> 
+                             <p class="text-muted ">3570 S Las Vegas BlvdLas Vegas, NV 89109</p>
+                           </div>
+                           <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                             <p>120 review</p>
+                             <i class="fa fa-star" aria-hidden="true"></i>
+                             <i class="fa fa-star" aria-hidden="true"></i>
+                             <i class="fa fa-star" aria-hidden="true"></i>
+                             <i class="fa fa-star" aria-hidden="true"></i>
+                             <i class="fa fa-star" aria-hidden="true"></i>
+             
+                           </div>
+                         </div>
+         
+                         <hr>
+                         <div class="row mt-3">
+                           <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                            <a href="#">   <img src="images/city4.jpg" class="img-fluid"></a>
+                             </div>
+                             <div class="col-lg-6 col-md-6 col-sm-6 col-12 ">
+                             <a href="#"> <h6 class="mt-2">Elite Medical Center</h6></a> 
+                               <p class="text-muted ">3084 S Highland DrSte C</p>
+                             </div>
+                             <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                               <p>120 review</p>
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                             </div>
+                           </div>
+                          <hr>
+                          </div>
+
+
+
+          <!-- mortgage calculator -->
+
+
+          <div class="mortgage-calculator mt-3">
+  <h4>Mortgage calculator</h4>
+          <div class="row">
+            <div class="col-lg-12">
+              <form class="mt-2">
+                <div class="form-row">
+                  <div class=" col-lg-6">
+                    <p>Total Amount</p>
+                    <input  type="number"  class=" calculater-inputs form-control mb-3" >
+                    <i class="fa fa-usd dollar-icon text-muted" aria-hidden="true"></i>
+                  </div>
+                  <div class="col-lg-6">
+                    <p>Down Payment</p>
+                    <input  type="number" class="calculater-inputs form-control" >
+                    <i class="fa fa-usd dollar-icon2 text-muted" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </form>
+
+              <form class="mt-2">
+                <div class="form-row">
+                  <div class=" col-lg-6">
+                    <p>Interest Rate</p>
+                    <input  type="number" class=" calculater-inputs form-control mb-3" >
+                    <i class="fa fa-percent percent-icon text-muted" aria-hidden="true"></i>
+                  </div>
+                  <div class="col-lg-6">
+                    <p>Number of years</p>
+                    <input  type="number" class=" calculater-inputs form-control" >
+                  </div>
+                </div>
+              </form>
+
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Example select</label>
+                <select class=" calculater-inputs form-control" id="exampleFormControlSelect1">
+                  <option>Yearly</option>
+                  <option>Monthly</option>
+                 
+                </select>
+              </div>
+
+              <button type="button" class=" calculator-button btn btn-primary mt-2">Calculate</button>
+            </div>
+          </div>
+</div>
+
+
+
+      
+
+
+   <!-- similar home -->
+
+   <div class="similar-home mt-3 mb-3">
+    <h4>Similar Homes You May Like</h4>
+    <div class="row mt-4">
+    <div class="col-lg-6">
+      <div class="card mb-4">
+               <div class="overlay-slide">   
+        <img src="images/futureoffice.jpg" class="img-fluid similar-home-img">
+        <div class="overlay">
+          <a href="#"> <i class="fa fa-picture-o text-white overlay-icons overlay-icon1" aria-hidden="true"> 9</i></a>
+         <a href="#"> <i class="fa fa-play text-white  overlay-icons overlay-icon2" aria-hidden="true"> 2</i></a>
+        </div>
+      </div> 
+        <span class="badge badge-info similar-home-badge">FOR SALE</span>
+        <div class="card-body">
+         
+          <a href="#">
+            <h5>Home in metric way</h5>
+          </a>
+          <p class="text-muted">1421 san pedro st, los angeles</p>
+  
+          <div class="footer mt-4">
+            <i class="fa fa-bath" aria-hidden="true"> 3 Br</i>
+            <i class="fa fa-shower" aria-hidden="true"> 3 Ba</i>
+            <i class="fa fa-square" aria-hidden="true"> 2300 sq.ft</i>
+            <i class="fa fa-car" aria-hidden="true"> 1Gr</i>
+          </div>
+          <hr>
+          <div class="similarhome-card-price">
+          <h5>$1.250.000</h5> 
+          <div class="d-flex flex-row"> 
+            <a href="#"> <i class="fa fa-heart-o whislist  " aria-hidden="true"></i></a>
+         <a href="#">  <i class="fa fa-random compare ml-1 " aria-hidden="true"></i></a> 
+        </div>
+            </div>
+           </div>
+      </div>
+     
+      </div>
+  
+      <div class="col-lg-6">
+        <div class="card mb-4">
+              
+          <div class="overlay-slide"> 
+          <img src="images/kitchen.jpg" class="img-fluid similar-home-img">
+          <div class="overlay">
+            <a href="#"> <i class="fa fa-picture-o text-white overlay-icons overlay-icon1" aria-hidden="true"> 9</i></a>
+           <a href="#"> <i class="fa fa-play text-white pl-2 overlay-icons overlay-icon2" aria-hidden="true"> 2</i></a>
+          </div>
+        </div> 
+          <span class="badge badge-info similar-home-badge">FOR SALE</span>
+          <div class="card-body">
+           <a href="#">
+              <h5>Affordable Urban House</h5>
+            </a>
+            <p class="text-muted">1421 san pedro st, los angeles</p>
+         <div class="footer mt-4">
+              <i class="fa fa-bath" aria-hidden="true"> 3 Br</i>
+              <i class="fa fa-shower" aria-hidden="true"> 3 Ba</i>
+              <i class="fa fa-square" aria-hidden="true"> 2300 sq.ft</i>
+              <i class="fa fa-car" aria-hidden="true"> 1Gr</i>
+            </div>
+            <hr>
+            <div class="similarhome-card-price">
+            <h5>$1.250.000</h5> 
+            <div class="d-flex flex-row"> 
+              <a href="#"> <i class="fa fa-heart-o whislist  " aria-hidden="true"></i></a>
+           <a href="#">  <i class="fa fa-random compare ml-1 " aria-hidden="true"></i></a> 
+          </div>
+              </div>
+             </div>
+        </div>
+       
+        </div>
+  </div>
+  
+    </div>
+  </div>
+</div>
+</div>
+</div>
+   
+
+
+
+  <!-- footer -->
+
+
+<div class="single-property-footer mt-5">
+
+  <div class="container">
+    <div class="row footer">
+      <div class="col-lg-4">
+        <a href="#"><img src="images/footerlogo.png" class="footerlogo mt-4 "></a>
+        <a href="#">
+          <p class="mt-2">58 Howard Street #2 San Francisco</p>
+        </a>
+        <a href="#">
+          <p>contact@homeid.com</p>
+        </a>
+        <a href="#">
+          <p class="contact-number">(+68)1221 09876</p>
+        </a>
+        <a href="#">
+          <p>www.homeid.com</p>
+        </a>
+        <a href="#">
+          <p class="mt-5">Terms of Use Privacy Policy</p>
+        </a>
+      </div>
+
+      <div class="col-lg-2">
+        <p class=" footer-heading mt-5 text-white">Popular Searches</p>
+        <a href="#">
+          <p>Apartment for Rent</p>
+        </a>
+        <a href="#">
+          <p>Apartment Low to hide</p>
+        </a>
+        <a href="#">
+          <p>Offices for Buy</p>
+        </a>
+        <a href="#">
+          <p>Offices for Rent</p>
+        </a>
+
+      </div>
+
+      <div class="col-lg-2">
+        <p class=" footer-heading mt-5 text-white">Quick links</p>
+        <a href="#">
+          <p>Terms of Use</p>
+        </a>
+        <a href="#">
+          <p>Privacy Policy</p>
+        </a>
+        <a href="#">
+          <p>Contact Support</p>
+        </a>
+        <a href="#">
+          <p>Careers</p>
+        </a>
+      </div>
+
+      <div class="col-lg-4">
+        <p class=" footer-heading mt-5 text-white">Sign Up for Our Newsletter</p>
+        <p>Lorem ipsum dolor sit amet, consecte tur cing elit. Suspe ndisse suscipit sagittis</p>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control p-4 " placeholder="Your email" aria-label="Recipient's username"
+            aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-info" id="footer-sub-btn" type="button">Subscribe</button>
+          </div>
+        </div>
+       <a href="#"> <i class=" fa-2x fa fa-twitter text-muted" aria-hidden="true"></i></a>
+       <a href="#"> <i class=" fa-2x fa fa-facebook text-muted pl-3" aria-hidden="true"></i></a>
+       <a href="#"> <i class=" fa-2x fa fa-skype text-muted pl-3" aria-hidden="true"></i></a>
+       <a href="#"> <i class=" fa-2x fa fa-linkedin text-muted pl-3" aria-hidden="true"></i></a>
+
+        <p class="pt-5 pl-5">© 2020 homeID. All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+  
+</div>
+
+<button onclick="scrollToTop()" id="scroll-to-top-btn">
+  <img src="images/arrow.svg" alt="arrow">
+</button> 
+
+<!-- scroll to top button -->
+<script>
+  function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+
+window.addEventListener("scroll", function() {
+  var scrollBtn = document.getElementById("scroll-to-top-btn");
+  if (window.pageYOffset > 100) {
+    scrollBtn.style.display = "block";
+  } else {
+    scrollBtn.style.display = "none";
+  }
+});
+ </script>
+  <!-- AOS js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
